@@ -2,7 +2,7 @@
 
 ## Forensics
 
-- disko-1
+- disko-1: Linux Basics
 
 ## Web-Exploitation
 
