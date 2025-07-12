@@ -2,7 +2,7 @@
 
 ## Binary-Exploitation
 
-- pie-time
+- pie-time: Position-Independent Executable & Address Space Layout Randomization
 
 ## Forensics
 
