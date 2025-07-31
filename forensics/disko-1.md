@@ -10,5 +10,5 @@ picoCTF{1t5_ju5t_4_5tr1n9_c63b02ef}
 
 - Flag: `picoCTF{1t5_ju5t_4_5tr1n9_c63b02ef}`
 - Explanation:
- - strings disko-1.dd: Scans the binary disk image file for readable ASCII strings
- - grep picoCTF: Filters out only the strings that contain picoCTF
+  - strings disko-1.dd: Scans the binary disk image file for readable ASCII strings
+  - grep picoCTF: Filters out only the strings that contain picoCTF
