@@ -15,8 +15,9 @@ Enter the password for the identified hash: letmein
 Correct! You've cracked the SHA-1 hash with no secret found!
 
 Almost there!! Crack this hash: 916e8c4f79b25028c9e467f1eb8eee6d6bbdff965f9928310ad30a8d88697745
-Enter the password for the identified hash: 
-
+Enter the password for the identified hash: qwerty098
+Correct! You've cracked the SHA-256 hash with a secret found. 
+The flag is: picoCTF{UseStr0nG_h@shEs_&PaSswDs!_5b836723}
 ```
-- Flag: `picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_424a1494}`
+- Flag: `picoCTF{UseStr0nG_h@shEs_&PaSswDs!_5b836723}`
 - Explanation:
