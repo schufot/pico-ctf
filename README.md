@@ -2,7 +2,7 @@
 
 ## Binary-Exploitation
 
-- pie-time: Position-Independent Executable & Address Space Layout Randomization
+- pie-time: Position-independent executable & address space layout randomization
 
 ## Cryptography
 
@@ -12,6 +12,10 @@
 
 - disko-1: Linux Basics
 
+## Reverse-Engineering
+
+- Flag Hunters: Interpreter abuse, command injection in custom scripting languages
+
 ## Web-Exploitation
 
-- ssti1: Server Side Template Injection
+- ssti1: Server side template injection
