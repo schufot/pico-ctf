@@ -4,6 +4,10 @@
 
 - pie-time: Position-Independent Executable & Address Space Layout Randomization
 
+## Cryptography
+
+- hashcrack: MD5 hash, SHA-1 hash, SHA-256 hash
+
 ## Forensics
 
 - disko-1: Linux Basics
