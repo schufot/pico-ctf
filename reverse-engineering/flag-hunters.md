@@ -152,6 +152,12 @@ With every exploit we trigger, every byte we decrypt,
 We’re chasing that victory, and we’ll never quit.
 Crowd:
 ```
+- Python interpreter for a lyrics-like DSL
+- Script handles flow control using commands like:
+  - REFRAIN: jump to the [REFRAIN] block
+  - RETURN <line_number>: jump back to a specific line
+  - CROWD (...): takes unsanitized user input
+- Real flag is embedded at the very top of the song, in a variable called secret_intro, but the interpreter starts from [VERSE1], so the flag is never shown unless the flow is subverted
 ```bash
 schufot-picoctf@webshell:~$ nc verbal-sleep.picoctf.net 52764
 Command line wizards, we’re starting it right,
