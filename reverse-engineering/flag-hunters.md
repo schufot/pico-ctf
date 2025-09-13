@@ -1,4 +1,4 @@
-# [Flag Hunters (Reverse Engineering, Easy)](https://play.picoctf.org/practice/challenge/472) - 
+# [Flag Hunters (Reverse Engineering, Easy)](https://play.picoctf.org/practice/challenge/472) - Interpreter abuse, command injection in custom scripting languages
 
 - Description: Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you.
   - lyric-reader.py
@@ -195,3 +195,5 @@
   ```
 - Flag: `picoCTF{70637h3r_f0r3v3r_0ed60683}`
 - Explanation:
+  - Unsanitized input + command injection via `.split(';')`: User input is directly inserted into the interpreter's instruction list and then split on semicolons, allowing injection of additional commands like RETURN 0
+  - Regex-driven instruction parsing: Interpreter uses strict regular expressions (`re.match(r"RETURN [0-9]+", ...)`) to process instructions, making it sensitive to formatting and whitespace
