@@ -2,7 +2,8 @@
 
 ## Binary-Exploitation
 
-- pie-time: Position-independent executable & address space layout randomization
+- PIE TIME: PIE, address space layout randomization
+- PIE TIME 2: PIE, arbitrary function pointer call / control flow hijack
 
 ## Cryptography
 
