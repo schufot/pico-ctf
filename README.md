@@ -2,8 +2,8 @@
 
 ## Binary-Exploitation
 
-- PIE TIME: PIE, address space layout randomization
-- PIE TIME 2: PIE, arbitrary function pointer call / control flow hijack
+- pie-time: PIE, address space layout randomization
+- pie-time-2: PIE, arbitrary function pointer call / control flow hijack
 
 ## Cryptography
 
@@ -15,7 +15,7 @@
 
 ## Reverse-Engineering
 
-- Flag Hunters: Interpreter abuse, command injection in custom scripting languages
+- flag-hunters: Interpreter abuse, command injection in custom scripting languages
 
 ## Web-Exploitation
 
