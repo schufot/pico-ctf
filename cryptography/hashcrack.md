@@ -2,6 +2,7 @@
 
 - Description: A company stored a secret message on a server which got breached due to the admin using weakly hashed passwords. Can you gain access to the secret stored within the server?
 - Solution:
+
   ```bash
   schufot-picoctf@webshell:~$ nc verbal-sleep.picoctf.net 60626
   Welcome!! Looking For the Secret?
@@ -42,4 +43,4 @@
   - Hash: Value that you get after applying a hash function to a file, and you obtain a string of fixed length that identifies that file, whenever you apply the hash function to the file, you will get exactly the same hash, unless the file has been modified, if one bit of the file was changed, you would get a very different hash, using a hash we can check the integrity
   - Message-Digest Algorithm 5 (MD5): Widely used hash function producing a 128-bit hash value
   - Secure Hash Algorithm 1 (SHA-1): Produces a 160-bit (20-byte) hash value
-  - Secure Hash Algorithm 2 (SHA-2): Set of cryptographic hash functions, built using the Merkle–Damgård construction
+  - Secure Hash Algorithm 2 (SHA-2): Set of cryptographic hash functions, built using the Merkle–Damgard construction
