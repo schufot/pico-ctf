@@ -12,6 +12,7 @@
 ## Forensics
 
 - disko-1: Linux Basics
+- riddle-registry: Base64
 
 ## Reverse-Engineering
 
