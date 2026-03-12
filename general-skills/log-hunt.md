@@ -31,6 +31,15 @@ schufot-picoctf@webshell:~$ cat server.log | grep _
 [1990-08-09 12:23:45] INFO FLAGPART: y0urlinux_
 [1990-08-09 12:23:53] INFO FLAGPART: y0urlinux_
 [1990-08-09 12:25:32] INFO FLAGPART: sk1lls_
+schufot-picoctf@webshell:~$ cat server.log | grep }
+[1990-08-09 10:10:54] INFO FLAGPART: cedfa5fb}
+[1990-08-09 10:10:58] INFO FLAGPART: cedfa5fb}
+[1990-08-09 10:11:06] INFO FLAGPART: cedfa5fb}
+[1990-08-09 11:16:58] INFO FLAGPART: cedfa5fb}
+[1990-08-09 11:16:59] INFO FLAGPART: cedfa5fb}
+[1990-08-09 11:17:00] INFO FLAGPART: cedfa5fb}
+[1990-08-09 12:28:45] INFO FLAGPART: cedfa5fb}
+[1990-08-09 12:28:49] INFO FLAGPART: cedfa5fb}
+[1990-08-09 12:28:52] INFO FLAGPART: cedfa5fb}
 ```
-- Flag: ``
-- Explanation:
+- Flag: `picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}`
