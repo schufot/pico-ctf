@@ -16,7 +16,9 @@ pAzzword
 schufot-picoctf@webshell:~$ steghide extract -sf img.jpg 
 Enter passphrase: 
 wrote extracted data to "flag.txt".
+
+schufot-picoctf@webshell:~$ cat flag.txt 
+picoCTF{h1dd3n_1n_1m4g3_1c55ccd0}
 ```
 
-- Flag: ``
-- Explanation:
+- Flag: `picoCTF{h1dd3n_1n_1m4g3_1c55ccd0}`
