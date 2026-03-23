@@ -10,6 +10,9 @@ output_image: PNG image data, 896 x 1152, 8-bit/color RGB, non-interlaced
 ```
   - output_image.png: <img width="896" height="1152" alt="output" src="https://github.com/user-attachments/assets/c7324754-63fc-4267-a7d8-91afbb7df815" />
 
+```bash
+schufot-picoctf@webshell:~$ echo '7069636F4354467B666F72656E736963735F616E616C797369735F69735F616D617A696E675F62653836303237397D' | xxd -r -p
+picoCTF{forensics_analysis_is_amazing_be860279}
+```
 
-- Flag: ``
-- Explanation:
+- Flag: `picoCTF{forensics_analysis_is_amazing_be860279}`
