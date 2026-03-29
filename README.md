@@ -14,6 +14,7 @@
 - disko-1: Linux Basics
 - riddle-registry: Base64
 - hidden-in-plainsight: Base64, steghide
+- flag-in-flame: steganography
 
 ## Reverse-Engineering
 
@@ -23,3 +24,9 @@
 
 - ssti1: Server side template injection
 - crack-the-gate-1: Brute force
+- insp3ct0r: Dev Tools
+- picobrowser: User-Agent
+
+## General Skills
+
+- log-hunt: grep
