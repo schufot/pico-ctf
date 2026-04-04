@@ -15,6 +15,7 @@
 - riddle-registry: Base64
 - hidden-in-plainsight: Base64, steghide
 - flag-in-flame: steganography
+- scan-suprise: QR-code
 
 ## Reverse-Engineering
 
@@ -22,10 +23,11 @@
 
 ## Web-Exploitation
 
-- ssti1: Server side template injection
 - crack-the-gate-1: Brute force
 - insp3ct0r: Dev Tools
+- no-sql-injection: NoSQL injection
 - picobrowser: User-Agent
+- ssti1: Server side template injection
 
 ## General Skills
 
