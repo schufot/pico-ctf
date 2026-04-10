@@ -49,3 +49,5 @@ Congratulations! You've recovered the original flag:
 ```
 
 ## Flag
+
+`picoCTF{Revers1ng_t3xt_Tr4nsf0rm@t10ns_fa04039f}`
