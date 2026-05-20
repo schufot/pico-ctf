@@ -33,6 +33,12 @@ while(True):
     break
 ```
 
+- Hex `\x65` equals 101 in decimal
+- ASCII decimal 101 equals character e
+- "\x65" == "e"
+- "\x65"*1751 == "e"*1751
+- Program expects 1751 times `e`
+
 ```bash
 schufot-academy@webshell:~$ python3 -c 'print("e"*1751)' | nc foggy-cliff.picoctf.net 62060
 ⊹──────[ BYTEMANCY-1 ]──────⊹
@@ -47,3 +53,5 @@ Send me ASCII DECIMAL 101 1751 times, side-by-side, no space.
 
 
 ## Flag
+
+`picoCTF{h0w_m4ny_e's???_e0d51f4b}`
