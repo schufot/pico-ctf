@@ -8,7 +8,7 @@ Connect to the program with netcat: $ nc foggy-cliff.picoctf.net 62060
 ## Solution
 
 ```bash
-schufot-academy@webshell:~$ nc foggy-cliff.picoctf.net 62060
+schufot-academy@webshell:~$ python3 -c 'print("e"*1751)' | nc foggy-cliff.picoctf.net 62060
 ⊹──────[ BYTEMANCY-1 ]──────⊹
 ☍⟐☉⟊☽☈⟁⧋⟡☍⟐☉⟊☽☈⟁⧋⟡☍⟐☉⟊☽☈⟁⧋⟡☍⟐
 
@@ -16,7 +16,7 @@ Send me ASCII DECIMAL 101 1751 times, side-by-side, no space.
 
 ☍⟐☉⟊☽☈⟁⧋⟡☍⟐☉⟊☽☈⟁⧋⟡☍⟐☉⟊☽☈⟁⧋⟡☍⟐
 ⊹─────────────⟡─────────────⊹
-==> 
+==> picoCTF{h0w_m4ny_e's???_e0d51f4b}
 ```
 
 
